@@ -1,0 +1,153 @@
+    body {
+        background-color: steelblue;
+        color: white;
+        font-family: 'muli', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .registration_div {
+
+
+
+        background-color: rgb(0, 0, 0, 0.4);
+
+        padding: 20px 40px;
+        border-radius: 5px;
+
+
+    }
+
+    .registration_div h1 {
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .form-control {
+        position: relative;
+        margin: 20px 0 40px;
+    }
+
+
+
+    .form-control input {
+        color: #fff;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px #fff solid;
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 18px;
+        counter-reset: #fff;
+
+    }
+
+    .form-control .first input {
+
+        width: 60%;
+    }
+
+    .form-control .last input {
+
+
+        width: 60%;
+
+    }
+
+    .form-control input:focus,
+    .form-control input:valid {
+        outline: 0;
+        border-bottom-color: lightblue;
+    }
+
+    .form-control label {
+        position: absolute;
+        top: 15px;
+        left: 0;
+        pointer-events: none;
+    }
+
+    .form-control label span {
+        display: inline-block;
+        font-size: 18px;
+        min-width: 5px;
+        transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .form-control input:focus+label span,
+    .form-control input:valid+label span {
+        color: lightblue;
+        transform: translateY(-30px);
+    }
+
+    .hori {
+        display: inline-flex;
+
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .gender-selector {
+        display: block;
+        background: rgba(0, 0, 0, 0.1);
+        /* Transparent background */
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        /* Drop shadow for depth */
+    }
+
+    .gender-selector select {
+        width: 100%;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.1);
+        /* Slightly opaque background */
+        color: #fff;
+        /* Text color */
+    }
+
+    .gender-selector label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #fff;
+        /* Label text color */
+    }
+
+    .gender-selector select option {
+        background: rgba(0, 0, 0, 0.5);
+        /* Change the background color of dropdown options */
+        color: #fff;
+        /* Text color for dropdown options */
+    }
+
+    /* Style the dropdown options when the select is focused */
+    .gender-selector select:focus option {
+        background: rgba(0, 0, 0, 0.5);
+        /* Change the background color when focused */
+    }
+
+    .btnrg {
+        cursor: pointer;
+        display: inline-block;
+        width: 100%;
+        background: lightblue;
+        padding: 15px;
+        font-family: inherit;
+        font-size: 16px;
+        border: 0;
+        border-radius: 5px;
+    }
