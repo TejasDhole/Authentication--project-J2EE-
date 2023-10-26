@@ -25,9 +25,20 @@ I'm thrilled to share that I've successfully completed a comprehensive authentic
 
 ![Form Input Wave - Brave 26-10-2023 17_27_31](https://github.com/TejasDhole/Authentication--project-J2EE-/assets/98216813/19c86797-4eea-4b56-8491-0316039c5d42)
 
-## Technology Stack
+## 💻 Technology Stack
 
-This project showcases my skills in Java (Servlets and JSP), J2EE, JDBC, MySQL, HTML, and CSS. It's a testament to the power of full-stack development.
+This project showcases my skills in 
+
+* Backend: Java (Servlets and JSP), J2EE
+* Database: MySQL
+* Frontend: HTML, CSS
+* Frameworks: JDBC
+* Version Control: Git (GitHub)
+* Server: Apache Tomcat
+* Development Tools: Eclipse IDE
+* User Interface: Responsive Design
+* Security: User Authentication and Validation
+* Full-Stack Development: End-to-end Solution
 
 ## Get Started
 
